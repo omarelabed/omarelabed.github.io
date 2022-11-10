@@ -1,36 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Musa's Notes</title>
+	<style>
+		.container {
+			display: flex;
+			max-width: fit-content;
+			flex-wrap: wrap;
+		}
+
+		.column {
+			display: block;
+			margin: 2rem;
+		}
+
+		img {
+			max-width: 15rem;
+		}
+	</style>
 </head>
+
 <body>
-	Arbeit
-		Zusammenarbeit
-			Meetings
-			Backlog
-			Mario Kart
 
-		Inhalt
-			Komischer Code
+	<div class="container">
 
-		Abteilungen
-			Grafik
-			Geografik
-			Photographie
-			Programmieren
-			Empfang
-			Kunst
-			Koch
-			Kameramann
+		<div class="column">
+			<h1>Arbeit</h1>
+			<img src="assets/pc.jpg" alt="Arbeit">
 
-	Spass
-		Viel lachen
-		Pizza: feinstes Essen
-		Viel reden
-		Mario Kart
+			<h2>Zusammenarbeit</h2>
+			<img src="assets/katzen.jpg" alt="Zusammenarbeit">
+			<ul>
+				<li>Meetings</li>
+				<li>Backlog</li>
+				<li>Mario Kart</li>
+			</ul>
 
+		</div>
+
+		<div class="column">
+			<h2>Inhalt</h2>
+			<img src="assets/code.jpg" alt="Inhalt">
+			<ul>
+				<li>Komischer Code</li>
+			</ul>
+			<h2>Abteilungen</h2>
+			<img src="assets/abteilungen.jpg" alt="Abteilungen">
+			<ul>
+				<li>Grafik</li>
+				<li>Geografik</li>
+				<li>Photographie</li>
+				<li>Programmieren</li>
+				<li>Empfang</li>
+				<li>Kunst</li>
+				<li>Koch</li>
+				<li>Kameramann</li>
+			</ul>
+		</div>
+
+		<div class="column">
+			<h1>Spass</h1>
+			<img src="assets/switch.png" alt="Spass">
+			<ul>
+				<li>Viel lachen</li>
+				<li>Pizza: feinstes Essen</li>
+				<li>Viel reden</li>
+				<li>Mario Kart</li>
+			</ul>
+		</div>
+
+
+	</div>
 </body>
+
 </html>
