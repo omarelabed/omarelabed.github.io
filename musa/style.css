@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	max-width: fit-content;
+	flex-wrap: wrap;
+}
+.column {
+	display: block;
+	margin: 2rem;
+}
+
+img {
+	max-width: 15rem;
+}
