@@ -14,7 +14,6 @@ body {
 }
 
 li a {
-    display: block;
     padding: .5rem;
     transition: .4s;
 }
